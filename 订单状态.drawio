@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T07:42:16.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="csWWXKuuW2CP0ErmfGbt" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T07:44:27.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EeidWbtxTvZuXFdBms7X" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="4874" dy="1955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="49y2JjZSjfnPFW-xxPCn-66" value="创建支付类型订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-65" vertex="1">
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-66" value="创建订单&lt;br&gt;（支付类型）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-65" vertex="1">
           <mxGeometry x="45" y="33" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-70" value="支付界面&lt;br&gt;※订单创建失败信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-65" vertex="1">
