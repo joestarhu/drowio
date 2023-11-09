@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T05:28:28.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XZJvcmd6CSJ6y2NyUy35" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:31:01.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="G9kyQpajszCbvNtvG-jy" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="4983" dy="2043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,14 +245,28 @@
             <mxPoint x="5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="49y2JjZSjfnPFW-xxPCn-65" source="49y2JjZSjfnPFW-xxPCn-66" target="49y2JjZSjfnPFW-xxPCn-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-75" value="创建成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="49y2JjZSjfnPFW-xxPCn-74">
+          <mxGeometry x="-0.1423" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-66" value="创建支付类型订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
           <mxGeometry x="45" y="33" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-70" value="支付界面&lt;br&gt;※订单创建失败信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
           <mxGeometry x="282" y="33" width="132.5" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="49y2JjZSjfnPFW-xxPCn-67" value="- 订单类型(支付订单)&lt;br&gt;- 下单时间(YYYY-MM-DD HH:MM:SS)&lt;br&gt;- 订单ID(全局唯一，系统生成)&lt;br&gt;- 所属用户ID&lt;br&gt;- 所属商户ID&lt;br&gt;- 订单状态&lt;br&gt;- 订单金额&lt;br&gt;- 现金支付&lt;br&gt;- 订单备注" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" parent="1">
-          <mxGeometry x="-1541" y="722" width="231" height="139" as="geometry" />
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-67" value="- 订单类型(支付订单)&lt;br&gt;- 下单时间(YYYY-MM-DD HH:MM:SS)&lt;br&gt;- 订单ID(全局唯一，系统生成)&lt;br&gt;- 所属用户ID&lt;br&gt;- 所属商户ID&lt;br&gt;- 订单状态&lt;br&gt;- 订单金额&lt;br&gt;- 现金支付&lt;br&gt;- 订单备注" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
+          <mxGeometry x="177.5" y="87" width="231" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-73" value="支付界面&lt;br&gt;※唤起收银台(微信)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
+          <mxGeometry x="45" y="245" width="132.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-77" value="- 根据商户ID，获取到支付相关信息&lt;br&gt;&amp;nbsp; &amp;nbsp;*比如微信支付的商户号信息等&lt;br&gt;- 订单支付到计算(超时自动关闭)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
+          <mxGeometry x="186" y="245" width="231" height="45" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="49y2JjZSjfnPFW-xxPCn-60" target="49y2JjZSjfnPFW-xxPCn-66">
           <mxGeometry relative="1" as="geometry" />
