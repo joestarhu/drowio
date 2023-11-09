@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T05:15:12.119Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IT16Jwy1ATojmCsurNfC" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:15:23.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="33fldZebqQ_TUFmdDBEc" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="4983" dy="2043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
           <mxGeometry x="-1418" y="-333" width="402" height="844" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-19" value="订单状态：已关闭" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="-1016" y="-333" width="402" height="844" as="geometry" />
+          <mxGeometry x="-1016" y="-333" width="234" height="844" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-22" value="支付超时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-19">
           <mxGeometry x="64" y="449" width="131" height="50" as="geometry" />
