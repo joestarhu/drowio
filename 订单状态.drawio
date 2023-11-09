@@ -1,26 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T03:15:27.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HdQO-BRmgEU8Wr52Qa6B" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T03:27:40.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i3H_k3L012bV8RJB6nvq" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
-    <mxGraphModel dx="1592" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1592" dy="1055" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Lc8HvnmVRkWQff5iJvex-3" value="用户扫码：微信小程序支付" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="120" y="320" width="200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-4" value="订单状态：待支付" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="320" y="320" width="200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-5" value="订单状态：进行中" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="520" y="320" width="200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-6" value="订单状态：已完成" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="720" y="320" width="200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-7" value="订单状态：售后中" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="920" y="320" width="200" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-8" value="订单状态：已关闭" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="260" width="200" height="200" as="geometry" />
+          <mxGeometry x="1120" y="320" width="200" height="600" as="geometry">
+            <mxRectangle x="1120" y="320" width="131" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lc8HvnmVRkWQff5iJvex-9" target="Lc8HvnmVRkWQff5iJvex-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-12" value="创建失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-11">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint x="8" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-9" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="1">
+          <mxGeometry x="464" y="187" width="131" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-10" value="订单创建失败&lt;br&gt;异常信息提醒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="1">
+          <mxGeometry x="675" y="187" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
