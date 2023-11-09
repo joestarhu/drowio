@@ -1,42 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T05:00:34.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GQSUcMu3KPEQtN4Xhaik" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:10:49.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3OHm7829Q7DMgVXCjfWX" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
-    <mxGraphModel dx="2203" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4685" dy="1874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-3" value="用户扫码：微信小程序支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="290" height="843" as="geometry">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-3" value="用户扫码：微信小程序支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="-2377" y="-298" width="290" height="843" as="geometry">
             <mxRectangle x="30" y="320" width="179" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFF;" edge="1" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-9" target="Lc8HvnmVRkWQff5iJvex-23">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-9" target="Lc8HvnmVRkWQff5iJvex-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-27" value="&lt;font color=&quot;#34373c&quot;&gt;微信小程序扫码&lt;br&gt;获取到商户ID&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-24">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-27" value="&lt;font color=&quot;#34373c&quot;&gt;微信小程序扫码&lt;br&gt;获取到商户ID&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-24" vertex="1" connectable="0">
           <mxGeometry x="-0.2317" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-9" value="用户扫码商户码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-3">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-9" value="用户扫码商户码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" vertex="1">
           <mxGeometry x="76.25" y="32" width="131" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-23" value="进入到支付界面&lt;br&gt;金额、备注输入&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;※需用户登录&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-3">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-23" value="进入到支付界面&lt;br&gt;金额、备注输入&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;※需用户登录&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" vertex="1">
           <mxGeometry x="74.75" y="129" width="132.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-23" target="Lc8HvnmVRkWQff5iJvex-32">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-23" target="Lc8HvnmVRkWQff5iJvex-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="149" y="296" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-34" value="&lt;font color=&quot;#34373c&quot;&gt;退出该界面&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-33">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-34" value="&lt;font color=&quot;#34373c&quot;&gt;退出该界面&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-33" vertex="1" connectable="0">
           <mxGeometry x="-0.0818" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-32" value="小程序主页" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-3">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-32" value="小程序主页" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" vertex="1">
           <mxGeometry x="75.5" y="241" width="132.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-44" target="Lc8HvnmVRkWQff5iJvex-23">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-44" target="Lc8HvnmVRkWQff5iJvex-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="14" y="314" />
@@ -44,10 +44,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-44" value="订单创建失败&lt;br&gt;异常信息提醒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef4864;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-3">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-44" value="订单创建失败&lt;br&gt;异常信息提醒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef4864;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" vertex="1">
           <mxGeometry x="73" y="295" width="132.5" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-61" target="Lc8HvnmVRkWQff5iJvex-23">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-61" target="Lc8HvnmVRkWQff5iJvex-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="14" y="381" />
@@ -55,71 +55,95 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-63" value="取消支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-62">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-63" value="取消支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-62" vertex="1" connectable="0">
           <mxGeometry x="-0.7697" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-61">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="Lc8HvnmVRkWQff5iJvex-3" source="Lc8HvnmVRkWQff5iJvex-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="139.25" y="448.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-71" value="等待用户操作" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-70">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-71" value="等待用户操作" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-70" vertex="1" connectable="0">
           <mxGeometry x="-0.4605" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-61" value="三方收银台&lt;br&gt;(微信)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-3">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-61" value="三方收银台&lt;br&gt;(微信)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-3" vertex="1">
           <mxGeometry x="73" y="358" width="131" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-4" value="订单状态：待支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="320" y="320" width="402" height="844" as="geometry" />
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-4" value="订单状态：待支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="-2087" y="-298" width="402" height="844" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-39" value="创建支付类型订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-4">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-39" value="创建支付类型订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="Lc8HvnmVRkWQff5iJvex-4" vertex="1">
           <mxGeometry x="20" y="81" width="132.5" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-58" value="- 订单类型(支付订单)&lt;br&gt;- 下单时间(YYYY-MM-DD HH:MM:SS)&lt;br&gt;- 订单ID(全局唯一，系统生成)&lt;br&gt;- 所属用户ID&lt;br&gt;- 所属商户ID&lt;br&gt;- 订单状态&lt;br&gt;- 订单金额&lt;br&gt;- 现金支付&lt;br&gt;- 订单备注" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-4">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-58" value="- 订单类型(支付订单)&lt;br&gt;- 下单时间(YYYY-MM-DD HH:MM:SS)&lt;br&gt;- 订单ID(全局唯一，系统生成)&lt;br&gt;- 所属用户ID&lt;br&gt;- 所属商户ID&lt;br&gt;- 订单状态&lt;br&gt;- 订单金额&lt;br&gt;- 现金支付&lt;br&gt;- 订单备注" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-4" vertex="1">
           <mxGeometry x="156" y="81" width="231" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-28" value="&lt;font color=&quot;#34373c&quot;&gt;·商户号&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" vertex="1" parent="1">
-          <mxGeometry x="-105" y="465" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-29" value="&lt;font color=&quot;#34373c&quot;&gt;·用户ID&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" vertex="1" parent="1">
-          <mxGeometry x="-74" y="531" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="1" source="Lc8HvnmVRkWQff5iJvex-23" target="Lc8HvnmVRkWQff5iJvex-39">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="1" source="Lc8HvnmVRkWQff5iJvex-23" target="Lc8HvnmVRkWQff5iJvex-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-66" value="点击支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-59">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-66" value="点击支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-59" vertex="1" connectable="0">
           <mxGeometry x="-0.2827" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="1" source="Lc8HvnmVRkWQff5iJvex-39" target="Lc8HvnmVRkWQff5iJvex-44">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="1" source="Lc8HvnmVRkWQff5iJvex-39" target="Lc8HvnmVRkWQff5iJvex-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="426" />
-              <mxPoint x="330" y="636" />
+              <mxPoint x="-2077" y="-192" />
+              <mxPoint x="-2077" y="18" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-67" value="创建失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-64">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-67" value="创建失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-64" vertex="1" connectable="0">
           <mxGeometry x="-0.3602" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" edge="1" parent="1" source="Lc8HvnmVRkWQff5iJvex-39" target="Lc8HvnmVRkWQff5iJvex-61">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#34373C;endArrow=classic;" parent="1" source="Lc8HvnmVRkWQff5iJvex-39" target="Lc8HvnmVRkWQff5iJvex-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="406" y="703" />
+              <mxPoint x="-2001" y="85" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-68" value="创建成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" connectable="0" parent="Lc8HvnmVRkWQff5iJvex-65">
+        <mxCell id="Lc8HvnmVRkWQff5iJvex-68" value="创建成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" parent="Lc8HvnmVRkWQff5iJvex-65" vertex="1" connectable="0">
           <mxGeometry x="-0.3479" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-1" value="&lt;h1&gt;通用订单流程模型&lt;/h1&gt;&lt;p&gt;通用订单流程模型抽象出来了订单通用的流程以及状态。它是一个大而全的模型。&lt;/p&gt;&lt;p&gt;任何业务的流程模型均可基于该模型之前添加或略过。&lt;/p&gt;&lt;p&gt;该模型定义了5大状态，分别为：待付款，进行中，已完成，售后中，已关闭&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2510" y="-552" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49y2JjZSjfnPFW-xxPCn-2" target="49y2JjZSjfnPFW-xxPCn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-2" value="待付款" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-2512" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49y2JjZSjfnPFW-xxPCn-3" target="49y2JjZSjfnPFW-xxPCn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-3" value="进行中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-2363" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49y2JjZSjfnPFW-xxPCn-5" target="49y2JjZSjfnPFW-xxPCn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-5" value="已完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-2211" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="49y2JjZSjfnPFW-xxPCn-7" target="49y2JjZSjfnPFW-xxPCn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-7" value="售后中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-2061" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-9" value="已关闭" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="-1911" y="-420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
