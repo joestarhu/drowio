@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T07:59:30.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ca6256bO2t5yP4pZ6iUx" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T07:59:40.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4XRFm-f_nbUGm75X1YGz" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="5240" dy="2159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="49y2JjZSjfnPFW-xxPCn-1" value="&lt;h1&gt;通用订单流程模型&lt;/h1&gt;&lt;div&gt;通用订单流程涉及到角色为买卖双方。&lt;/div&gt;&lt;div&gt;整体的业务流程区分为2端：交易阶段和售后阶段&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-1" value="&lt;h1&gt;通用订单流程模型&lt;/h1&gt;&lt;div&gt;通用订单流程涉及到角色为买卖双方。&lt;/div&gt;&lt;div&gt;整体的业务流程区分为2端：交易阶段和售后阶段&lt;/div&gt;&lt;div&gt;当前&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2505" y="-600" width="510" height="120" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="49y2JjZSjfnPFW-xxPCn-2" target="49y2JjZSjfnPFW-xxPCn-3" edge="1">
