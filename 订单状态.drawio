@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T07:41:01.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="liXl42564cAfWv_wac4P" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T07:42:16.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="csWWXKuuW2CP0ErmfGbt" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="4874" dy="1955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,10 +143,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1P4lGSasqayBtfQSkuf-1" value="调用三方支付接口&lt;br&gt;(微信)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
+        <mxCell id="f1P4lGSasqayBtfQSkuf-1" value="支付处理&lt;br&gt;调用三方支付接口&lt;br&gt;(微信)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
           <mxGeometry x="45" y="470" width="132.5" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="f1P4lGSasqayBtfQSkuf-3" value="- 判断订单是否有效(是否过期)&lt;br&gt;- 获取支付接口返回的结果信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FF0087;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
+        <mxCell id="f1P4lGSasqayBtfQSkuf-3" value="- 判断订单是否有效(状态，过期)&lt;br&gt;- 获取支付接口返回的结果信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FF0087;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
           <mxGeometry x="183.5" y="503" width="196.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="f1P4lGSasqayBtfQSkuf-4" value="支付结果页-失败&lt;br&gt;※超时等其他异常&lt;br&gt;※可返回小程序首页&lt;br&gt;※可重新支付" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-65">
@@ -178,7 +178,7 @@
         <mxCell id="f1P4lGSasqayBtfQSkuf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="49y2JjZSjfnPFW-xxPCn-97" source="49y2JjZSjfnPFW-xxPCn-113" target="49y2JjZSjfnPFW-xxPCn-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="49y2JjZSjfnPFW-xxPCn-113" value="订单状态变更" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-97" vertex="1">
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-113" value="已完成处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-97" vertex="1">
           <mxGeometry x="25" y="470" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-118" value="售后倒计时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="49y2JjZSjfnPFW-xxPCn-97" vertex="1">
