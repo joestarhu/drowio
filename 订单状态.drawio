@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T07:56:47.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="f5mzi2GLIfkhxLQpQpGl" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T07:59:30.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ca6256bO2t5yP4pZ6iUx" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="5240" dy="2159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="49y2JjZSjfnPFW-xxPCn-1" value="&lt;h1&gt;通用订单流程模型&lt;/h1&gt;&lt;p&gt;通用订单流程模型抽象出来了订单通用的流程以及状态。它是一个大而全的模型。&lt;/p&gt;&lt;p&gt;任何业务的流程模型均可基于该模型之前添加或略过。&lt;/p&gt;&lt;p&gt;该模型定义了5大状态，分别为：待付款，进行中，已完成，售后中，已关闭&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="49y2JjZSjfnPFW-xxPCn-1" value="&lt;h1&gt;通用订单流程模型&lt;/h1&gt;&lt;div&gt;通用订单流程涉及到角色为买卖双方。&lt;/div&gt;&lt;div&gt;整体的业务流程区分为2端：交易阶段和售后阶段&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2505" y="-600" width="510" height="120" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="49y2JjZSjfnPFW-xxPCn-2" target="49y2JjZSjfnPFW-xxPCn-3" edge="1">
@@ -35,7 +35,7 @@
           <mxGeometry x="-1906" y="-468" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-39" value="用户扫码：微信小程序支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-2513" y="-325" width="290" height="700" as="geometry">
+          <mxGeometry x="-2511" y="-79" width="290" height="700" as="geometry">
             <mxRectangle x="30" y="320" width="179" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -73,7 +73,7 @@
           <mxGeometry x="76.25" y="305" width="131" height="50" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-65" value="订单状态：待支付" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-2222" y="-325" width="428" height="700" as="geometry" />
+          <mxGeometry x="-2220" y="-79" width="428" height="700" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="49y2JjZSjfnPFW-xxPCn-65" source="49y2JjZSjfnPFW-xxPCn-66" target="49y2JjZSjfnPFW-xxPCn-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -161,16 +161,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-83" value="代表&lt;br&gt;系统界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3345CC;strokeColor=#6c8ebf;fontColor=#FFF;" parent="1" vertex="1">
-          <mxGeometry x="-2507" y="-391" width="131" height="50" as="geometry" />
+          <mxGeometry x="-2505" y="-145" width="131" height="50" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-84" value="代表&lt;br&gt;系统操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0087;strokeColor=#6c8ebf;fontColor=#FFF;" parent="1" vertex="1">
-          <mxGeometry x="-2371" y="-390" width="132.5" height="49" as="geometry" />
+          <mxGeometry x="-2369" y="-144" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-85" value="代表&lt;br&gt;用户操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFBF00;strokeColor=#6c8ebf;fontColor=#FFF;" parent="1" vertex="1">
-          <mxGeometry x="-2233" y="-390.5" width="132.5" height="49" as="geometry" />
+          <mxGeometry x="-2231" y="-144.5" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-97" value="订单状态:已完成" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-1795" y="-325" width="389" height="700" as="geometry" />
+          <mxGeometry x="-1793" y="-79" width="389" height="700" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="49y2JjZSjfnPFW-xxPCn-97" source="49y2JjZSjfnPFW-xxPCn-113" target="49y2JjZSjfnPFW-xxPCn-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -188,10 +188,10 @@
           <mxGeometry x="25" y="575" width="132.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="f1P4lGSasqayBtfQSkuf-13" value="- 订单状态变更&lt;br&gt;- 订单有效期变更(售后限时)&lt;br&gt;- 订单关联支付明细信息&lt;br&gt;&amp;nbsp; &amp;nbsp;1.支付时间&lt;br&gt;&amp;nbsp; &amp;nbsp;2.支付渠道(如：微信支付)&lt;br&gt;&amp;nbsp; &amp;nbsp;3.支付单号&lt;br&gt;&amp;nbsp; &amp;nbsp;4.支付行为(如：支付或退款)&lt;br&gt;&amp;nbsp; &amp;nbsp;5.支付金额(如: 10.00)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FF0087;" vertex="1" parent="49y2JjZSjfnPFW-xxPCn-97">
-          <mxGeometry x="163" y="524" width="192" height="123" as="geometry" />
+          <mxGeometry x="175" y="525" width="192" height="123" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-125" value="订单状态:已关闭" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-1406" y="-325" width="206" height="700" as="geometry" />
+          <mxGeometry x="-1404" y="-79" width="206" height="700" as="geometry" />
         </mxCell>
         <mxCell id="49y2JjZSjfnPFW-xxPCn-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="49y2JjZSjfnPFW-xxPCn-125" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -243,7 +243,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f1P4lGSasqayBtfQSkuf-11" value="所有订单的状态变更都需要记录订单状态变更流水信息" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-2090" y="-390" width="328" height="48" as="geometry" />
+          <mxGeometry x="-2088" y="-144" width="328" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
