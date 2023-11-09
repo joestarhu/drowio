@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T04:58:56.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SJleFVtiUGLSj8c1FGVz" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:00:34.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GQSUcMu3KPEQtN4Xhaik" version="22.1.0" type="github">
   <diagram name="订单状态" id="O3KAAAbpH9t8ICp0gVx-">
     <mxGraphModel dx="2203" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,20 +81,6 @@
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-58" value="- 订单类型(支付订单)&lt;br&gt;- 下单时间(YYYY-MM-DD HH:MM:SS)&lt;br&gt;- 订单ID(全局唯一，系统生成)&lt;br&gt;- 所属用户ID&lt;br&gt;- 所属商户ID&lt;br&gt;- 订单状态&lt;br&gt;- 订单金额&lt;br&gt;- 现金支付&lt;br&gt;- 订单备注" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#34373C;" vertex="1" parent="Lc8HvnmVRkWQff5iJvex-4">
           <mxGeometry x="156" y="81" width="231" height="139" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-5" value="订单状态：进行中" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="818" y="462" width="200" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-6" value="订单状态：已完成" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1018" y="462" width="200" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-7" value="订单状态：售后中" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1218" y="462" width="200" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="Lc8HvnmVRkWQff5iJvex-8" value="订单状态：已关闭" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1418" y="462" width="200" height="600" as="geometry">
-            <mxRectangle x="1120" y="320" width="131" height="26" as="alternateBounds" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Lc8HvnmVRkWQff5iJvex-28" value="&lt;font color=&quot;#34373c&quot;&gt;·商户号&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FFF;" vertex="1" parent="1">
           <mxGeometry x="-105" y="465" width="60" height="30" as="geometry" />
