@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T07:46:32.858Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="VOy4JP-N_osSvepFrSCj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T07:51:55.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1JSb_us23H8kdbETjIzZ" version="22.1.3" type="github">
   <diagram name="第 1 页" id="wvnq4uJY2lPpRDyeuScc">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zELVFlalgwwfonV-ulVV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-1" target="zELVFlalgwwfonV-ulVV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-1" value="用户访问界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-2" target="zELVFlalgwwfonV-ulVV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-6" value="不需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-5">
+          <mxGeometry x="-0.1818" y="-4" relative="1" as="geometry">
+            <mxPoint x="5" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-2" target="zELVFlalgwwfonV-ulVV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-9" value="需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-8">
+          <mxGeometry x="-0.225" y="-4" relative="1" as="geometry">
+            <mxPoint x="4" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-2" value="判断是否需要&lt;br&gt;用户身份信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-4" value="显示界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-7" target="zELVFlalgwwfonV-ulVV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-13" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-12">
+          <mxGeometry x="-0.0333" y="-4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-7" target="zELVFlalgwwfonV-ulVV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-19" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-15">
+          <mxGeometry x="-0.3167" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-7" value="是否存在&lt;br&gt;JWT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-10" value="登录界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-14" target="zELVFlalgwwfonV-ulVV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-18" value="已过期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-17">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-14" target="zELVFlalgwwfonV-ulVV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-22" value="有效期内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zELVFlalgwwfonV-ulVV-21">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-14" value="JWT是否&lt;br&gt;在有效期内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-16" value="登录界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zELVFlalgwwfonV-ulVV-20" target="zELVFlalgwwfonV-ulVV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-20" value="业务操作&lt;br&gt;（如鉴权）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zELVFlalgwwfonV-ulVV-24" value="显示界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
