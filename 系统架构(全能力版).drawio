@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T07:59:09.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uIHT103HfwEMNSuW1gzh" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T08:03:21.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CA2oz28V-NtZPNp_5Jru" version="22.1.3" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
     <mxGraphModel dx="2583" dy="1642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,19 +134,19 @@
           <mxGeometry x="248" y="-1" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aw8PCjykxM2-NQnz8DjW-166" value="&lt;p style=&quot;font-size: 16px;&quot;&gt;统一用户中心&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;(User Center)&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;arcSize=6;fontSize=16;verticalAlign=top;align=center;spacing=8;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="788" width="910" height="121" as="geometry" />
+          <mxGeometry x="375" y="1105" width="910" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="aw8PCjykxM2-NQnz8DjW-172" value="订单服务(Order Service)&lt;br&gt;订单类型 | 订单管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="1175" width="453" height="67" as="geometry" />
+        <mxCell id="aw8PCjykxM2-NQnz8DjW-172" value="订单服务(Order Service) Order_id&lt;br&gt;订单类型 | 订单管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="144" y="745" width="453" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="aw8PCjykxM2-NQnz8DjW-191" value="商户服务(Merchant Service)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="1254" width="456" height="67" as="geometry" />
+        <mxCell id="aw8PCjykxM2-NQnz8DjW-191" value="商户服务(Merchant Service) Merchant_id" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="609" y="745" width="456" height="67" as="geometry" />
         </mxCell>
         <mxCell id="aw8PCjykxM2-NQnz8DjW-192" value="商品服务(Product Service)&lt;br&gt;虚拟 | 实物" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
           <mxGeometry x="-166" y="1096" width="449" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="aw8PCjykxM2-NQnz8DjW-193" value="售卖服务(Sell Service)&lt;br&gt;电商 | 点单" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="1017" width="450" height="67" as="geometry" />
+        <mxCell id="aw8PCjykxM2-NQnz8DjW-193" value="售卖服务(Sell Service)&amp;nbsp; Sell_ID&lt;br&gt;电商 | 点单&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="-323" y="745" width="450" height="67" as="geometry" />
         </mxCell>
         <mxCell id="aw8PCjykxM2-NQnz8DjW-195" value="支付服务(Pay Service)&lt;br&gt;微信支付 | 支付宝支付" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
           <mxGeometry x="-166" y="1336" width="457" height="67" as="geometry" />
