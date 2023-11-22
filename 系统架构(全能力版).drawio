@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T08:03:21.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CA2oz28V-NtZPNp_5Jru" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T08:04:37.662Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="l5VLHfdCAmwqQOS1iYeE" version="22.1.3" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
     <mxGraphModel dx="2583" dy="1642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,6 +153,9 @@
         </mxCell>
         <mxCell id="aw8PCjykxM2-NQnz8DjW-196" value="营销服务(Promotion Service)&lt;br&gt;优惠券发放 | 投票 | 大转盘 | 抽奖&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
           <mxGeometry x="-166" y="938" width="450" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="aw8PCjykxM2-NQnz8DjW-197" value="基础信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="509" width="456" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
