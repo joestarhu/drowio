@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T02:44:03.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MM5gfSzUa9ENAzQxrMBj" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T02:45:01.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DlOU8cTjsXrjGFRYVloX" version="22.1.4" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
-    <mxGraphModel dx="2704" dy="1711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3857" dy="2367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,8 +148,8 @@
         <mxCell id="aw8PCjykxM2-NQnz8DjW-193" value="售卖服务(Sell Service)&amp;nbsp; Sell_ID&lt;br&gt;电商 | 点单&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="1049" y="497" width="450" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="aw8PCjykxM2-NQnz8DjW-195" value="支付服务(Pay Service)&lt;br&gt;微信支付 | 支付宝支付" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
-          <mxGeometry x="2005" y="1053" width="457" height="67" as="geometry" />
+        <mxCell id="aw8PCjykxM2-NQnz8DjW-195" value="支付服务(Pay Service)&lt;br&gt;微信支付 | 支付宝支付 | etc..." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
+          <mxGeometry x="-18" y="1480" width="377" height="67" as="geometry" />
         </mxCell>
         <mxCell id="aw8PCjykxM2-NQnz8DjW-196" value="营销服务(Promotion Service)&lt;br&gt;优惠券发放 | 投票 | 大转盘 | 抽奖&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="2005" y="655" width="450" height="67" as="geometry" />
@@ -189,6 +189,9 @@
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-14" value="用户入口" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-167" y="921.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uHpPP6ECfVWJAUWhDHUz-15" value="地图服务(GIS)&lt;br&gt;微信支付 | 支付宝支付 | etc..." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="397" y="1480" width="377" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
