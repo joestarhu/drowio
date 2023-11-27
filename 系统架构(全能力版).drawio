@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T03:35:45.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2bqiXiZ7pHKDV-DDfG8L" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T03:37:06.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iQNG4_ftAylslRV_qm8v" version="22.1.4" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
-    <mxGraphModel dx="4971" dy="2545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2928" dy="1383" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,12 +155,12 @@
           <mxGeometry x="-15" y="1589" width="1360" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-6" value="小程序(微信，商户端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1076" width="369" height="67" as="geometry" />
+          <mxGeometry x="416" y="1076" width="369" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-7" value="小程序(微信，客户端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="847" y="1076" width="369" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="uHpPP6ECfVWJAUWhDHUz-8" value="营销服务管理后台" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
+        <mxCell id="uHpPP6ECfVWJAUWhDHUz-8" value="营销服务管理后台(管理端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-15" y="1076" width="369" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-9" value="商户服务(Merchants Service)&lt;br&gt;基础信息 | 资金账户信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
@@ -202,7 +202,7 @@
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-36" value="权益核销服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-252" y="684" width="183" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="vy7v2-23Cj58Dg5bJEoD-1" value="业务支撑体系" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="vy7v2-23Cj58Dg5bJEoD-1" value="业务支撑体系" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-246" y="1478" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
