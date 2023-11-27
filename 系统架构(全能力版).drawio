@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T07:07:01.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="njey8vOb1dFmRzYJO7CP" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T07:16:38.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FvQZiCf_zBaXhML_QfoD" version="22.1.4" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
-    <mxGraphModel dx="3965" dy="1973" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3274" dy="1580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,9 @@
         </mxCell>
         <mxCell id="Qxil72xSA6o9jFv1MVt--11" value="微信小程序（客户端）&lt;br&gt;- 电商购买&lt;br&gt;- 营销活动&lt;br&gt;- 订单信息&lt;br&gt;- etc..." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#A50040;dashed=1;dashPattern=1 2;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="343.5" y="1651" width="262" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--12" value="数字营销平台能力" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#3700CC;dashed=1;dashPattern=1 2;fillColor=#6a00ff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="2318" width="142" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
