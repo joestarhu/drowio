@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T06:57:10.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vxmAkuMcQk9hA8jzCMpO" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T07:04:03.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Gnx9Smmb0pGLv8UQWJbK" version="22.1.4" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
     <mxGraphModel dx="3965" dy="1973" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
           <mxGeometry x="-646" y="1973" width="350" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-2" value="云服务设施&lt;br&gt;网络 | 存储 | 计算&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#432D57;dashed=1;dashPattern=1 2;fillColor=#76608a;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="1589" width="1360" height="67" as="geometry" />
+          <mxGeometry x="-646" y="2054" width="1440" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-6" value="小程序(微信，商户端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#A50040;dashed=1;dashPattern=1 2;fillColor=#d80073;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="418" y="1177" width="369" height="67" as="geometry" />
@@ -172,7 +172,7 @@
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-30" value="营销服务(Promotion Service)&lt;br&gt;&amp;nbsp;活动 | 优惠券&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#3700CC;dashed=1;dashPattern=1 2;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-286.5" y="1820" width="350" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="uHpPP6ECfVWJAUWhDHUz-31" value="售卖服务(Sell Service)&lt;br&gt;价格 | 介绍 | 渠道" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#3700CC;dashed=1;dashPattern=1 2;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="uHpPP6ECfVWJAUWhDHUz-31" value="售卖服务(Sell Service)&lt;br&gt;分类 | 库存 | 价格" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#3700CC;dashed=1;dashPattern=1 2;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-286.5" y="1897" width="350" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-33" value="年卡预约服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
@@ -213,6 +213,21 @@
         </mxCell>
         <mxCell id="dbalfLe8HDNpVPMKoqeN-12" value="订单管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#A50040;dashed=1;dashPattern=1 2;fillColor=#d80073;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1041.5" y="1334" width="175" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--3" value="&lt;p style=&quot;font-size: 16px;&quot;&gt;统一用户中心&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;(User Center)&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;用户 | 角色&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;应用 | 组织&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;arcSize=6;fontSize=16;verticalAlign=middle;align=center;spacing=8;dashed=1;dashPattern=1 1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="673" y="1651" width="118" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--4" value="营销服务管理后台(管理端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#A50040;dashed=1;dashPattern=1 2;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-646" y="1645" width="710" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--5" value="营销服务管理后台(管理端)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=#A50040;dashed=1;dashPattern=1 2;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-731" y="1410" width="710" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--6" value="&lt;p style=&quot;font-size: 16px;&quot;&gt;地图服务(GIS)&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;点 | 线 | 面 etc...&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;arcSize=6;fontSize=16;verticalAlign=middle;align=center;spacing=8;dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1822" width="149" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="Qxil72xSA6o9jFv1MVt--7" value="&lt;p style=&quot;font-size: 16px;&quot;&gt;流程引擎(BPMS)&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;流程，表单&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;arcSize=6;fontSize=16;verticalAlign=middle;align=center;spacing=8;dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1822" width="149" height="218" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
