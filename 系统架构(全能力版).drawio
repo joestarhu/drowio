@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T03:11:21.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5ZSe1xGi9_LAHyeEl0hI" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T03:12:08.645Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="htf7aV2FDTAd-bjHZfx3" version="22.1.4" type="github">
   <diagram name="第 1 页" id="ZknkTiHTkFIjWXrP2Em_">
     <mxGraphModel dx="3565" dy="2040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,13 +185,13 @@
           <mxGeometry x="1519" y="1244" width="450" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-29" value="产品服务(Product Service)&lt;br&gt;权益 | 电子券 | 年卡" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-9" y="1116" width="371" height="67" as="geometry" />
+          <mxGeometry x="-12" y="1189" width="371" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="uHpPP6ECfVWJAUWhDHUz-30" value="营销服务(Promotion Service)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1116" width="371" height="67" as="geometry" />
+        <mxCell id="uHpPP6ECfVWJAUWhDHUz-30" value="营销服务(Promotion Service)&lt;br&gt;&amp;nbsp;活动 | 优惠券&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="1189" width="371" height="67" as="geometry" />
         </mxCell>
         <mxCell id="uHpPP6ECfVWJAUWhDHUz-31" value="售卖服务(Sell Service)&lt;br&gt;价格 | 介绍 | 渠道" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;verticalAlign=middle;align=center;spacing=8;fontSize=16;strokeColor=default;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="1321" width="371" height="67" as="geometry" />
+          <mxGeometry x="781" y="1189" width="371" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
