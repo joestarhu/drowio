@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T09:47:56.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TgIg9r6sc54HjeIn4UX5" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T09:59:04.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PE1clFwiIzKJRH0NIZxh" version="22.1.16" type="github">
   <diagram name="第 1 页" id="6gclD6GuzE8qrVbKCYZI">
     <mxGraphModel dx="2074" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,14 +28,29 @@
         <mxCell id="HbIJJGpfc6-fZ_TSbvuI-8" value="数据流通&amp;amp;交易" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="570" y="510" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-9" value="公共数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-9" value="资源持有权" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="110" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-10" value="企业数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-10" value="加工使用权" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-11" value="个人数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-11" value="产品经营权" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="290" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-12" value="公共数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-13" value="企业数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-14" value="个人数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-15" value="确权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbIJJGpfc6-fZ_TSbvuI-16" value="授权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
