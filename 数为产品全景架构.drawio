@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T05:55:02.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="OTN5VL4NBwhqHJWYDe8o" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T05:58:57.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GlKJ2vnRAxFYZm7tzb0k" version="22.1.21" type="github">
   <diagram name="第 1 页" id="nl_SVo8nJQFdmFtLfmIW">
-    <mxGraphModel dx="2074" dy="1180" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1878" dy="1180" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Xdd-GH1y-uxtfCDk_GQl-2" value="统一用户中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="711" width="120" height="60" as="geometry" />
+        <mxCell id="Xdd-GH1y-uxtfCDk_GQl-4" value="产品全景架构图" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;" vertex="1" parent="1">
+          <mxGeometry x="166" y="173" width="562" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
