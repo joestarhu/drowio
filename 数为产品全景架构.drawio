@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T05:58:57.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GlKJ2vnRAxFYZm7tzb0k" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="nl_SVo8nJQFdmFtLfmIW">
-    <mxGraphModel dx="1878" dy="1180" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1179" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Xdd-GH1y-uxtfCDk_GQl-4" value="产品全景架构图" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;" vertex="1" parent="1">
-          <mxGeometry x="166" y="173" width="562" height="70" as="geometry" />
+        <mxCell id="VdVIM1bRkV-cHxae_REX-6" value="公共数据标签体系业务流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96.00000000000045" y="144" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VdVIM1bRkV-cHxae_REX-7" value="Lane 1" style="swimlane;startSize=20;html=1;" vertex="1" parent="VdVIM1bRkV-cHxae_REX-6">
+          <mxGeometry y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VdVIM1bRkV-cHxae_REX-8" value="Lane 2" style="swimlane;startSize=20;html=1;" vertex="1" parent="VdVIM1bRkV-cHxae_REX-6">
+          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VdVIM1bRkV-cHxae_REX-9" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="VdVIM1bRkV-cHxae_REX-6">
+          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
